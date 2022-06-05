@@ -6,11 +6,11 @@ const Books = (props) => {
             <div className="book">
                 <div className="book-top">
                     <div className="book-cover">
-                        {props.book.imageLinks !== undefined &&
+                        {/* {props.book.imageLinks !== undefined && */}
                             <img src={props.book.imageLinks.thumbnail} alt={props.book.title}
                                 style={{ width: 128,
                                 height: 193}} />
-                        }
+                        {/* } */}
                     </div>
             
                     <div className="book-shelf-changer">
